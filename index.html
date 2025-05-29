@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OP.GG</title>
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        Summoner name: <input type = "text" id = "summoner_name"></br>
+        <select id = "choose_region">
+            <option value = "0">BR</option>
+            <option value = "1">EUNE</option>
+            <option value = "2">EUW</option>
+            <option value = "3">JP</option>
+            <option value = "4">KR</option>
+            <option value = "5">LA1</option>
+            <option value = "6">LA2</option>
+            <option value = "7">NA</option>
+            <option value = "8">TR</option>
+            <option value = "9">RU</option>
+            <option value = "10">PH</option>
+            <option value = "11">SH</option>
+            <option value = "12">TH</option>
+            <option value = "13">TW</option>
+            <option value = "14">VN</option>
+        </select>
+        <input type="button" onclick="chooseRegion()" value="Region"></br>
+        Tag Line: <input type = "text" id = "tagLine"></br>
+        <input type = "button" id = "search_button" value = "Search the chosen summoner!" onclick = "Search_summoner()">
+        <div id = "summonerLevel_data"></div>
+        <div id="summonerProfilePicData">
+            <img id="summonerProfilePicture" src = "">
+        </div>
+        <div id="ranked_Data">
+            <div id="ranked_win">
+                
+            </div>
+            <div id="ranked_lose">
+                
+            </div>
+            <div id="ranked_winratio">
+
+            </div>
+            <div id="ranked_division">
+                
+            </div>
+            
+        </div>
+        <div id="champStats">
+        
+        </div>
+    <br>
+        <div id="matchHistory"></div>
+</body>
+</html>
